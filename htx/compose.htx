@@ -1,0 +1,115 @@
+<?php 
+//
+// Compose msg HTML file
+//
+?>
+<div align="center">
+<?php push_errinfo() ?>
+<script language="JavaScript" src="<?php echo $BSX_BASEHREF?>/js/popwin.js"></script>
+<script language="JavaScript" src="<?php echo $BSX_BASEHREF?>/js/compose.js"></script>
+<script language="JavaScript">
+	var no_rcpt = "<?php echo $lng->p(452)?>";
+	var no_body = "<?php echo $lng->p(453)?>";
+	var no_validrcpt = "<?php echo $lng->p(454)?>";
+</script>
+<?php push_jsaddrs()?>
+<?php start_form("composeMail", "onSubmit='return cmpsValidate();'")?>
+<input type="hidden" name="RequestID" value="CMPSSEND">
+<input type="hidden" name="cmps_f0" value="<?php echo htmlspecialchars($cmps_f0)?>">
+<input type="hidden" name="cmps_s0" value="<?php echo htmlspecialchars($cmps_s0)?>">
+<input type="hidden" name="cmps_c0" value="<?php echo htmlspecialchars($cmps_c0)?>">
+<input type="hidden" name="cmps_f1" value="<?php echo htmlspecialchars($cmps_f1)?>">
+<input type="hidden" name="cmps_s1" value="<?php echo htmlspecialchars($cmps_s1)?>">
+<input type="hidden" name="cmps_c1" value="<?php echo htmlspecialchars($cmps_c1)?>">
+<input type="hidden" name="cmps_f2" value="<?php echo htmlspecialchars($cmps_f2)?>">
+<input type="hidden" name="cmps_s2" value="<?php echo htmlspecialchars($cmps_s2)?>">
+<input type="hidden" name="cmps_c2" value="<?php echo htmlspecialchars($cmps_c2)?>">
+<?php
+if($cmps_fromID) {
+?>
+<input type="hidden" name="cmps_fromID" value="<?php echo $cmps_fromID?>">
+<input type="hidden" name="cmps_fromMsgID" value="<?php echo htmlspecialchars($cmps_fromMsgID)?>">
+<input type="hidden" name="cmps_fromMbox" value="<?php echo urlencode(imap_utf7_decode($cmps_fromMbox))?>">
+<?php } ?>
+<table border="0" cellpadding="0" cellspacing="0" width="85%">
+<?php
+if($is_js) {
+?>
+<tr>
+<td class="chknext" align="left" width="50%" nowrap>&nbsp;
+<?php 
+if(!$abook_items_cnt) {
+  echo $lng->p(401);
+} else {
+  $abook_grpitems_cnt = $abook_grpitems_cnt + 1 - 1;
+  $lng->sb(402); $lng->sr("%d", $abook_items_cnt); $lng->sr("%g", $abook_grpitems_cnt);
+  $uurl = $BSX_BASEHREF . "/" . $BSX_LAUNCHER . "?RequestID=CMPSABOOK" . "&is_js=" . $is_js;
+  if($SESSID) $uurl .= "&SESSID=" . $SESSID;
+  if($is_ssl) $uurl .= "&is_ssl=" . $is_ssl;
+  $lng->sr("%u", "<a href=\"#\" onClick=\"javascript:abookWin('" . $uurl . "');\">");
+  $abook_msg = $lng->sp();
+  echo "$abook_msg";
+}
+?>
+&nbsp;</td><td class="chknext" align="right" width="50%" nowrap>&nbsp;
+<a href="#" id="cmps_atchlink" onClick="javascript:attachWin('<?php echo $BSX_BASEHREF?>/<?php echo $BSX_LAUNCHER?>?RequestID=CMPSATCH&is_ssl=<?php echo $is_ssl?>&is_js=<?php echo $is_js?>&SESSID=<?php echo $SESSID?>');"><?php echo nbsp($lng->p(408))?></a>&nbsp;
+</td>
+</tr>
+<?php
+} // if(is_js)
+?>
+<tr>
+<tr><td align="center" class="graybg" colspan="2">
+<table border="0" cellpadding="1" cellspacing="1" width="100%">
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(403))?></td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" name="cmps_from" size="50" value="<?php echo htmlspecialchars($cmps_from)?>">&nbsp;</td>
+</tr>
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(404))?></td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" name="cmps_to" size="50" value="<?php echo htmlspecialchars($cmps_to)?>">&nbsp;</td>
+</tr>
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(405))?></td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" name="cmps_cc" size="50" value="<?php echo htmlspecialchars($cmps_cc)?>">&nbsp;</td>
+</tr>
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(406))?></td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" name="cmps_bcc" size="50" value="<?php echo htmlspecialchars($cmps_bcc)?>">&nbsp;</td>
+</tr>
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(407))?></td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" name="cmps_subject" size="50" value="<?php echo htmlspecialchars($cmps_subject)?>">&nbsp;</td>
+</tr>
+<?php
+if($is_js) {
+?>
+<tr>
+<td class="cmsghdr" align="left" width="20%" nowrap><?php echo nbsp($lng->p(408))?>:</td>
+<td class="cmsgval" align="left" width="80%" nowrap>&nbsp;
+<input type="text" tabindex="-1" name="cmps_atchlist" class="atchlist" value="<?php echo $cmps_atchlist?>" size="50" onFocus="noFocus(cmps_atchlink, '<?php echo htmlentities($lng->p(432))?>');">
+&nbsp;</td>
+</tr>
+<?php } ?>
+<tr>
+<td class="cmsgbod" align="center" colspan="2" width="100%">
+<textarea name="cmps_body" rows="20" cols="80" style="width:100%;"><?php echo $cmps_body?></textarea>
+</td>
+</tr>
+<tr>
+<td class="chknext" align="center" colspan="2" width="100%">
+<?php echo nbsp($lng->p(409))?><input type="checkbox" name="cmps_sign" value="1" <?php if($cmps_sign) echo "checked";?>>
+&nbsp;&nbsp;&nbsp;&nbsp;
+<input type="submit" class="button" name="cmps_send" value="<?php echo $lng->p(410)?>" onMouseOver='inset(this, 1)' onMouseOut='outset(this, 1)'>
+</td>
+</tr>
+</table>
+</td></tr>
+</table>
+</div>
+<?php stop_form()?>
