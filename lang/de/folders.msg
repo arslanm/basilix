@@ -1,0 +1,37 @@
+<?
+// Folders screen messages
+$lang_msg["folders"] = array(
+	151	=>	'Ordner',
+	152	=>	'Insgesamt',
+	153	=>	'Ungelesen',
+	154	=>	'Größe',
+	155	=>	'Ordner erstellen:',
+	156	=>	'Ordner erstellen',
+	157	=>	'Sie können eine beliebige Anzahl von persönlichen Ordnern erstellen. Um einen persönlichen Ordner zu erstllen, geben Sie einen Namen ein und klicken Sie auf "Ordner erstellen".',
+	158	=>	'Sie haben keinen Namen für den neuen Ordner angegeben. Bitte versuchen sie es noch einmal.',
+	159	=>	'Dieser Ordner existiert bereits. Bitte versuchen Sie es noch einmal.',
+	160	=>	'Ihr neuer Ordner wurde erfolgreich erstellt.',
+	161	=>	'Ordner löschen:',
+	162	=>	'Ausgewählten Ordner löschen',
+	163	=>	'Das Löschen von Ordnern kann <u><b>nicht</b> rückgängig gemacht werden</u>. Wenn Sie einen Ordner löschen wollen wählen  Sie ihn aus und klicken Sie auf "Ordner löschen".',
+	164	=>	'Sie haben keinen Ordner zum Löschen ausgewählt.',
+	165	=>	'Der ausgewählte Ordner konnte nicht gelöscht werden. Bitte versuchen Sie es später noch einmal..',
+	166	=>	'Der ausgewählte Ordner wurde erfolgreich gelöscht.',
+	167	=>	'Ordner umbenennen:',
+	168	=>	'Ordner umbenennen',
+	169	=>	'Wenn Sie einen Ordner umbenennen wollen, wählen Sie ihn aus und klicken Sie auf "Ordner umbenennen".',
+	170	=>	'Alter Ordnername',
+	171	=>	'Neuer Ordnername',
+	172	=>	'Sie haben keine Ordner zum Umbennen ausgewählt. Bite verscuchen Sie es noch einmal.',
+	173	=>	'Sie haben keinen neuen Ordnernamen eingegeben. Bitte verscuhen Sie es erneut..',
+	174	=>	'Der ausgewählte Ordner konnte nciht umbenannt werden. Bitte versuchen Sie es später noch einmal.',
+	175	=>	'Ihr Ordner wurde erfolgreich umbenannt.',
+	176	=>	'leerer Papierkorb',
+	177	=>	'Neuer Ordner konnte nciht erstellt werden. Könnte Ihre Festplattenspeicher erschöpft sein? Bitte versuchen Sie es später noch einmal.',
+	178	=>	'Der ausgewählte Ordner wurde erfolgreich geleert.',
+	179	=>	'Der ausgewählte Ordner konnte nicht geleert werden. Bitte versuchen Sie es später noch einmal.',
+	180	=>	'Wollen Sie diesen Ordner wirklich leeren?',
+	181	=>	'Fehler beim erstellen des Papierkorbes',
+	182	=>	'Fehler beim erstellen des Sent-Mail Ordners'
+);
+?>
