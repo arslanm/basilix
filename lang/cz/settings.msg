@@ -1,0 +1,38 @@
+<?
+// 'Settings' messages
+$lang_msg["settings"] = array(
+	501	=>	'Nemohu uložit nové nastavení, zkuste to prosím pozdìji',
+	502	=>	'Nové nastavení bylo uloženo.',
+	503	=>	'Vaše jméno',
+	504	=>	'(bude zapsáno do <u>Od</u> èásti odchozích zpráv)',
+	505	=>	'Podpis',
+	506	=>	'(bude pøidán na konec každé odeslané zprávy)',
+	507	=>	'Jazyk',
+	508	=>	'(implicitní jazyk)',
+	509	=>	'Tøídit zprávy podle',
+	510	=>	'(implicitní tøídící algoritmus)',
+	511	=>	'Obrácené tøídìní',
+	512	=>	'(Pokud zvoleno tak nejnovìjší zprávy budou zobrazeny první)',
+	513	=>	'Ulož odchozí zprávy',
+	514	=>	'(Pokud zvoleno tak odchozí zprávy budou uloženy v "Odeslaná pošta")',
+	515	=>	'Pøesuò do koše',
+	516	=>	'(Pokud zvoleno tak smazané zprávy budou pøesunuty do koše)',
+	517	=>	'Velikost strany',
+	518	=>	'(Velikost zprávy na stranu pøi listování ve schránce)',
+	519	=>	'Datum',
+	520	=>	'Od',
+	521	=>	'Pøedmìt',
+	522	=>	'Velikost',
+	523	=>	'Téma',
+	524	=>	'(Zmìní vzhled vaší schránky)',
+	525	=>	'Ulož nastavení',
+	526	=>	'Ukaž',
+	527	=>	'Skryj',
+	528	=>	'Ukaž/Skryj',
+	529	=>	'(Ukáže nebo skryje výpis uživatelských složek v levém menu)',
+	530	=>	'Pøedchozí/Následující',
+	531	=>	'(Ukáže odkazy na pøedchozí a následující zprávy pøi ètení zprávy -- pomalé na velkých schránkách)',
+	532	=>	'Odpovìï na',
+	533	=>	'(pøíjemce odpoví na tuto adresu -- Pokud je prázdná, použije se <b>%e</b>)'
+);
+?>
