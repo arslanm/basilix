@@ -1,0 +1,37 @@
+<?
+// Folders screen messages
+$lang_msg["folders"] = array(
+	151	=>	'Folder',
+	152	=>	'Jumlah',
+	153	=>	'Belum dibaca',
+	154	=>	'Ukuran',
+	155	=>	'Buat folder pribadi:',
+	156	=>	'Buat folder pribadi-ku',
+	157	=>	'Anda dapat membuat beberapa folder pribadi. Untuk membuat folder pribadi baru, masukkan nama di bawah dan klik tombol BUAT.',
+	158	=>	'Anda belum memasukkan nama untuk folder baru, silahkan ulangi lagi.',
+	159	=>	'Folder tersebut telah ada, silahkan ulangi lagi.',
+	160	=>	'Folder baru berhasil dibuat.',
+	161	=>	'Hapus sebuah folder:',
+	162	=>	'Hapus folder terpilih',
+	163	=>	'Folder yang dihapus <u><b>TIDAK</b> dapat dikembalikan</u>. Jika anda ingin menghapus sebuah folder, silahkan pilih ini dan klik tombol HAPUS.',
+	164	=>	'Anda belum memilih sebuah folder untuk dihapus, silahkan ulangi lagi.',
+	165	=>	'Tidak dapat menghapus folder yang anda tentukan, silahkan ulangi lagi nanti..',
+	166	=>	'Folder yang anda tentukan berhasil dihapus.',
+	167	=>	'Ganti nama folder:',
+	168	=>	'Ganti nama folder terpilih',
+	169	=>	'Jika anda ingin mengganti nama sebuah folder pribadi, pilih ini dan klik tombol "Ganti Nama".',
+	170	=>	'Nama folder lama',
+	171	=>	'Nama folder baru',
+	172	=>	'Anda belum memilih folder yang akan diganti namanya, silahkan ulangi lagi..',
+	173	=>	'Anda belum memasukkan nama folder baru, silahkan ulangi lagi..',
+	174	=>	'Tidak dapat mengganti nama folder yang anda tentukan, silahkan ulangi lagi nanti..',
+	175	=>	'Folder berhasil diganti namanya.',
+	176	=>	'kosongkan folder Sampah',
+	177	=>	'Tidak dapat membuat folder baru. Mungkin anda telah melebihi jatah disk? silahkan ulangi lagi nanti..',
+	178	=>	'Folder yang anda tentukan berhasil dikosongkan.',
+	179	=>	'Tidak dapat mengosongkan folder yang anda tentukan, silahkan ulangi lagi nanti..',
+	180	=>	'Anda yakin ingin mengosongkan folder ini?',
+	181	=>	'Kesalahan saat membuat folder Sampah',
+	182	=>	'Kesalahan saat membuat folder Surat Keluar'
+);
+?>
