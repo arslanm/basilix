@@ -1,0 +1,36 @@
+<?
+// Messages related with reading a message
+$lang_msg["msgs"] = array(
+	251	=>	'Fra',
+	252	=>	'Til',
+	253	=>	'Kopi',
+	254	=>	'Emne',
+	255	=>	'Dato',
+	256	=>	'Meldingstekst',
+	257	=>	'Vedlegg:',
+	258	=>	'<div align="center"><b>Ingen meldingstekst</b></div>',
+	259	=>	'Valgt melding ble ikke funnet. Kan ha blitt slettet!',
+	260	=>	'Forrige',
+	261	=>	'Neste',
+	262	=>	'Svar',
+	263	=>	'Svar til alle',
+	264	=>	'Slett',
+	265	=>	'Videresend',
+	266	=>	'vis e-postdetaljer',
+	267	=>	'(uten emne)',
+	268	=>	'Lagre adresse',
+	269	=>	'HTML formatért melding',
+	270	=>	'RFC822 melding',
+	271	=>	'Leveranse status',
+	272	=>	'Klartekstmelding',
+	273	=>	'Melding med beriket tekst',
+	274	=>	'Ukjent Vedlegg',
+	275	=>	'Tekstmelding',
+	276	=>	'Kjørbart program',
+	277	=>	'Lydfil',
+	278	=>	'Bildefil',
+	279	=>	'Filmsnutt',
+	280	=>	'PGP-signatur',
+	281	=>	'Meldingstekst'
+);
+?>
