@@ -1,0 +1,38 @@
+<?
+// 'Settings' messages
+$lang_msg["settings"] = array(
+	501	=>	'Neue Einstellungen konnten nicht gespeichert werden. Bitte versuchen Sie es später noch einmal.',
+	502	=>	'Neue Einstellungen wurden gespeichert.',
+	503	=>	'Ihr Name',
+	504	=>	'(Der Name der als <u>Absender</u> Ihrer E-Mails erscheint)',
+	505	=>	'Signatur',
+	506	=>	'(wird an jede gesendete E-Mail angehangen)',
+	507	=>	'Sprache',
+	508	=>	'(standard Sprache)',
+	509	=>	'Nachrichten sortieren nach',
+	510	=>	'(standard Sortierreihenfolge)',
+	511	=>	'Sortierung umkehren',
+	512	=>	'(wenn ja, neuste Nachrichten werden zuerst angezeigt)',
+	513	=>	'Gesendete Nachrichten speichern',
+	514	=>	'(wenn ja, werden alle gesendeten Nachrichten in "Sent Mail" gespeichert)',
+	515	=>	'In Papierkorb verschieben',
+	516	=>	'(wenn ja, werden alle gelöschten Nachrichten in den Papierkorb verschoben)',
+	517	=>	'E-Mails pro Seite',
+	518	=>	'(Anzahl der E-Mails auf einer Bildschirmseite)',
+	519	=>	'Datum',
+	520	=>	'Von',
+	521	=>	'Betreff',
+	522	=>	'Größe',
+	523	=>	'Farbschema',
+	524	=>	'(ändert das farbliche Aussehen der Oberfläche)',
+	525	=>	'Einstellungen speichern',
+	526	=>	'Anzeigen',
+	527	=>	'Verstecken',
+	528	=>	'Anzeigen/Verstecken',
+	529	=>	'(anzeigen oder verstecken der Ordnerliste im Menü)',
+	530	=>	'Vor/Zurück',
+	531	=>	'(Vor und Zurück Links in der Nachrichtenansicht -- langsam bei großen Mailboxen)',
+	532	=>	'Antwortadresse',
+	533	=>	'(Wenn keine Eingabe, dann wird <b>%e</b> benutzt)'
+);
+?>
