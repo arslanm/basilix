@@ -1,0 +1,37 @@
+<?
+// MBox listing messages
+$lang_msg["mboxlst"] = array(
+	201	=>	'Dari',
+	202	=>	'Urut berdasarkan Dari',
+	203	=>	'Untuk',
+	204	=>	'Urut berdasarkan Untuk',
+	205	=>	'Tanggal',
+	206	=>	'Urut berdasarkan Tanggal',
+	207	=>	'Ukuran',
+	208	=>	'Urut berdasarkan Ukuran',
+	209	=>	'Subyek',
+	210	=>	'Urut berdasarkan Subyek',
+	211	=>	'(tidak ber-subyek)',
+	212	=>	'Pindahkan pesan terpilih ke',
+	213	=>	'Kerjakan',
+	214	=>	'Folder Kosong',
+	215	=>	'Hapus pesan terpilih',
+	216	=>	'Hapus pesan terpilih',
+	217	=>	'Sebelumnya',
+	218	=>	'Lanjut',
+	219	=>	'Tidak ada pesan untuk di folder ini untuk ditampilkan.',
+	220	=>	'Anda belum memilih folder, silahkan ulangi lagi..',
+	221	=>	'Anda belum memilih beberapa pesan, silahkan ulangi lagi..',
+	222	=>	'Tidak dapat memindahkan pesan terpilih, silahkan ulangi lagi nanti..',
+	223	=>	'Pesan terpilih (%d) berhasil dipindahkan ke Sampah.',
+	224	=>	'Tidak dapat menghapus pesan terpilih, silahkan ulangi lagi nanti..',
+	225	=>	'Pesan terpilih berhasil dipindahkan.',
+	226	=>	'Tidak dapat menghapus pesan terpilih, silahkan ulangi lagi nanti..',
+	227	=>	'Pesan terpilih berhasil dihapus.',
+	228	=>	'Halaman: ',
+	229	=>	'Anda yakin ingin mengosongkan folder ini?',
+	230	=>	'Selamat datang, koneksi terakhir anda dari',
+	231	=>	'Pesan berhasil dihapus.',
+	232	=>	'Pesan berhasil dihapus.'
+);
+?>
