@@ -1,0 +1,37 @@
+<?
+// MBox listing messages
+$lang_msg["mboxlst"] = array(
+	201	=>	'Od',
+	202	=>	'Tøídit podle Od',
+	203	=>	'Komu',
+	204	=>	'Tøídit podle Komu',
+	205	=>	'Datum',
+	206	=>	'Tøídit podle Datumu',
+	207	=>	'Velikost',
+	208	=>	'Tøídit podle Velikosti',
+	209	=>	'Pøedmìt',
+	210	=>	'Tøídit podle Pøedmìtu',
+	211	=>	'(prázdný Pøedmìt)',
+	212	=>	'Pøesuò oznaèenou zprávu do',
+	213	=>	'Proveï',
+	214	=>	'Prázdná složka',
+	215	=>	'Vymaž oznaèenou zprávu',
+	216	=>	'Odstraò oznaèenou zprávu',
+	217	=>	'Pøedchozí',
+	218	=>	'Následující',
+	219	=>	'V této složce nejsou žádné zprávy pro zobrazení.',
+	220	=>	'Nevybral jste si složku, prosím zkuste to znovu..',
+	221	=>	'Nevybral jste si zprávu, prosím zkuste to znovu..',
+	222	=>	'Nemohu pøesunout vybranou zprávu, zkuste to prosím pozdìji..',
+	223	=>	'Oznaèená zpráva (%d) byla úspìšnì pøesunuta do koše.',
+	224	=>	'Nemohu vymazat oznaèenou zprávu, zkuste to prosím pozdìji..',
+	225	=>	'Oznaèená zpráva byla úspìšnì pøesunuta.',
+	226	=>	'Nemohu odstranit oznaèené zprávy, zkuste to prosím pozdìji..',
+	227	=>	'Oznaèené zprávy byly úspìšnì odstranìny.',
+	228	=>	'Strana: ',
+	229	=>	'Chces skuteènè vyprázdnit tento adresáø?',
+	230	=>	'Vítej, naposledy jste se pøipojil z',
+	231	=>	'Zpráva byla úspìšnì vymazána.',
+	232	=>	'Zpráva byla úspìšnì odstranìna.'
+);
+?>
