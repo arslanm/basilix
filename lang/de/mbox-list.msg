@@ -1,0 +1,37 @@
+<?
+// MBox listing messages
+$lang_msg["mboxlst"] = array(
+	201	=>	'Absender',
+	202	=>	'Sortieren nach Absender',
+	203	=>	'An',
+	204	=>	'Sortieren nach Empfänger',
+	205	=>	'Datum',
+	206	=>	'Sortieren nach Datum',
+	207	=>	'Größe',
+	208	=>	'Sortieren nach Größe',
+	209	=>	'Betreff',
+	210	=>	'Sortieren nach Betreff',
+	211	=>	'(kein Betreff)',
+	212	=>	'Markierte Nachrichten nach',
+	213	=>	'verschieben',
+	214	=>	'Ordner leeren',
+	215	=>	'Markierte Nachrichten löschen',
+	216	=>	'Ausgewählte Nachricht löschen',
+	217	=>	'vor',
+	218	=>	'zurück',
+	219	=>	'Es sind keine Nachrichten in diesem Ordner vorhanden.',
+	220	=>	'Sie haben keinen Ordner ausgewählt. Bitte versuchen Sie es erneut.',
+	221	=>	'Sie haben keine Nachricht ausgewählt. Bitte versuchen Sie es erneut.',
+	222	=>	'Die Nachricht(en) konnte(n) nicht verschoben werden. Bitte versuchen Sie es später noch einmal.',
+	223	=>	'Die ausgewählten Nachrichten (%d) wurden erfolgreich in den Papierkorb verschoben.',
+	224	=>	'Die Nachricht(en) konnte(n) nicht gelöscht werden. Bitte versuchen Sie es später noch einmal.',
+	225	=>	'Die ausgewählte Nachricht(en) wurde(n) erfolgreich verschoben.',
+	226	=>	'Die Nachricht(en) konnte(n) nicht gelöscht werden. Bitte versuchen Sie es später noch einmal.',
+	227	=>	'Die Nachricht(en) wurde(n) erfolgreich gelöscht.',
+	228	=>	'Seite: ',
+	229	=>	'Sind Sie sicher, dass Sie den Ordner löschen wollen?',
+	230	=>	'Willkommen, Ihre letzte Verbindung war',
+	231	=>	'Die Nachricht(en) wurde(n) erfolgreich gelöscht.',
+	232	=>	'Die Nachricht(en) wurde(n) erfolgreich gelöscht.'
+);
+?>
