@@ -1,0 +1,37 @@
+<?
+// MBox listing messages
+$lang_msg["mboxlst"] = array(
+	201	=>	'Fra',
+	202	=>	'Sortér på Fra',
+	203	=>	'Til',
+	204	=>	'Sortér på Til',
+	205	=>	'Dato',
+	206	=>	'Sortér på Dato',
+	207	=>	'Størrelse',
+	208	=>	'Sortér på Størrelse',
+	209	=>	'Emne',
+	210	=>	'Sortér på Emne',
+	211	=>	'(uten emne)',
+	212	=>	'Flytt meldinger til',
+	213	=>	'Utfør',
+	214	=>	'Tøm mappe',
+	215	=>	'Slett meldinger',
+	216	=>	'Makulér meldinger',
+	217	=>	'Forrige',
+	218	=>	'Neste',
+	219	=>	'Det er ingen meldinger å vise i denne mappen.',
+	220	=>	'Du valgte ingen mappe. Prøv igjen...',
+	221	=>	'Du valgte ingen melding. Prøv igjen...',
+	222	=>	'Kunne ikke flytte meldingen(e). Prøv igjen senere.',
+	223	=>	'Meldingen (%d) er flyttet til papirkurven.',
+	224	=>	'Kunne ikke slette meldingen(e). Prøv igjen senere.',
+	225	=>	'Meldingen(e) er flyttet.',
+	226	=>	'Kunne ikke makulere meldingen(e). Prøv igjen senere.',
+	227	=>	'Meldingen(e) er makulert.',
+	228	=>	'Side: ',
+	229	=>	'Er du sikker på at du vil tømme denne mappen?',
+	230	=>	'Velkommen. Din forrige pålogging var fra',
+	231	=>	'Meldingen er slettet.',
+	232	=>	'Meldingen er makulert.'
+);
+?>
