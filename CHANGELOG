@@ -1,0 +1,56 @@
+ChangeLog
+=========
+2004/08/10: Mike:
+    * files/login.php3: fixed domain authentication issue with bogus
+    domains.
+2003/12/09: Ch. Thielecke
+	* lib/compose.inc: Sent Mail not saved in some cases
+	* lib/compose.inc: Append signature not checked
+	* German translation fixes
+2004/01/23: Peter Preiszler (Petyuska)
+	* Added Hungarian translation
+2004/01/08: Mike
+	* files/login.php: fixed login with BSX_SHOW_DOMAINS set to 0
+
+# Released 1.1.1_fix1
+2003/11/19: Mike
+	* fix potentially serious cross-site scripting issue in read message.
+	* fix potentially serious cross-site scripting issue in message list.
+# Released 1.1.1
+
+2003/11/18:  Christofer Algotsson
+	* lib/compose.inc: Give new attatchment directory 0700 perms
+	* lib/findmsg.inc: Increase message count
+	* lib/findmsg.inc: convert html chars in search results
+	* lib/mysql.class: added missing quotes in queries.
+2003/11/18: Mike
+	* lib/lang.class: missing language strings now fall back to English
+	* htx/readmsg.htx: move message option added to Read Message window
+	* htx/compose.htx: Added 'Cancel' button to Compose Message window.
+	* htx/compose.htx: Added 'Reset' button to Compose Message window.
+	* Added config option to not show domain list at login
+	* lib/mysql.class: added some type safety to queries ie made sure we pass an int value when we're expecting one
+2003/11/17: Mike
+	* lang/*/findmsg: fixed "check/uncheck boxes in search" in
+	other languages.
+2003/11/17: Christofer Algotsson
+	* lib/compose.inc: fixed "attachmentfiles doesnt get deleted".
+	* lang/sv/findmsg: fixed "check/uncheck boxes in search" for swedish language file.
+2003/11/02: Mike
+	* Fixed login problem with servers which need notls specified
+	* Gave cvs its own version number
+	* Renamed doc/$LANG/CHANGES to NEWS to avoid confusion with new CHANGELOG file
+2003/10/29: Mike
+	* Added "To" to search options
+	* Search folders checkboxes now remember selected folders
+	* Found messages are now opened by clicking the Subject line
+2003/10/26: Mike
+	* Bug 826318: css error message positioning problem fixed
+	* fixed search problem where search was only working if INBOX was selected
+2003/10/19: Christofer Algotsson
+	* lib/readmsg.inc: invalid link fix
+	* files/compose-attach.php3: security fix. Check attachments are really uploaded files.
+2003/10/19: Mike
+	* htx/copy.htx: Updated link in footer
+
+# Changelog started 2003/10/19, version 1.1.0
