@@ -1,0 +1,36 @@
+<?
+// Messages related with reading a message
+$lang_msg["msgs"] = array(
+	251	=>	'Dari',
+	252	=>	'Untuk',
+	253	=>	'Tembusan',
+	254	=>	'Subyek',
+	255	=>	'Tanggal',
+	256	=>	'Isi Pesan',
+	257	=>	'Sisipan:',
+	258	=>	'<div align="center"><b>Isi pesan tidak ada</b></div>',
+	259	=>	'Pesan yang ditentukan tidak dapat dicari, mungkin telah anda hapus!',
+	260	=>	'Sebelumnya',
+	261	=>	'Lanjut',
+	262	=>	'Balas',
+	263	=>	'Balas Semua',
+	264	=>	'Hapus',
+	265	=>	'Kirim ke',
+	266	=>	'Lihat "Header"',
+	267	=>	'Tidak ber-Subyek',
+	268	=>	'Simpan Alamat',
+	269	=>	'Pesan Berformat HTML',
+	270	=>	'Pesan RFC822',
+	271	=>	'Status Pengiriman',
+	272	=>	'Pesan Plaintext',
+	273	=>	'Pesan Enriched Text ',
+	274	=>	'Sisipan tidak dikenal',
+	275	=>	'Pesan Text',
+	276	=>	'Aplikasi',
+	277	=>	'File Suara',
+	278	=>	'File Gambar',
+	279	=>	'Video Clip',
+	280	=>	'Tanda tangan PGP',
+	281	=>	'Isi Pesan'
+);
+?>
