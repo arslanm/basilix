@@ -1,0 +1,38 @@
+<?
+// 'Settings' messages
+$lang_msg["settings"] = array(
+	501	=>	'Tidak dapat mengimpan seting baru, silahkan ulangi lagi.',
+	502	=>	'Seting baru telah disimpan',
+	503	=>	'Nama Anda',
+	504	=>	'(akan disisipkan pada bagian <u>Dari</u> untuk surat keluar)',
+	505	=>	'Tanda tangan',
+	506	=>	'(akan dibubuhkan pada setiap surat yang anda kirim)',
+	507	=>	'Bahasa',
+	508	=>	'(bahasi baku)',
+	509	=>	'Urut pesan berdasarkan',
+	510	=>	'(algoritma peng-urutan baku)',
+	511	=>	'Urut balik',
+	512	=>	'(jika ya, pesan terbaru akan ditampilkan di atas)',
+	513	=>	'Simpan pesan keluar',
+	514	=>	'(jika ya, pesan keluar akan disimpan pada "Surat Keluar")',
+	515	=>	'Pindahkan ke folder Sampah',
+	516	=>	'(jika ya, pesan yang dihapus akan dipindahkan ke folder Sampah)',
+	517	=>	'Jumlah halaman',
+	518	=>	'(pesan tiap halaman saat melihat sebuah kotak surat)',
+	519	=>	'Tanggal',
+	520	=>	'Dari',
+	521	=>	'Subyek',
+	522	=>	'Ukuran',
+	523	=>	'Tema',
+	524	=>	'(ubah tampilan dari halaman mail anda)',
+	525	=>	'Simpan seting',
+	526	=>	'Tampilkan',
+	527	=>	'Sembunyikan',
+	528	=>	'Tampilkan/Sembunyikan',
+	529	=>	'(tampilkan atau sembunyikan daftar folder dalam menu di sebelah kiri)',
+	530	=>	'Sebelumnya/Lanjut',
+	531	=>	'(tampilkan links pesan sebelumnya dan sesudahnya saat membaca sebuah pesan -- akan lambat pada kotak surat besar)',
+	532	=>	'Balasan-Ke',
+	533	=>	'(penerima akan membalas ke alamat ini -- jika kosong akan digunakan <b>%e</b>)'
+);
+?>
