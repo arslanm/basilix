@@ -1,0 +1,36 @@
+<?
+// Messages related with reading a message
+$lang_msg["msgs"] = array(
+	251	=>	'Von',
+	252	=>	'An',
+	253	=>	'Cc',
+	254	=>	'Betreff',
+	255	=>	'Datum',
+	256	=>	'Inhalt der Nachricht',
+	257	=>	'Anhänge:',
+	258	=>	'<div align="center"><b>Der Inhalt der Nachricht ist leer</b></div>',
+	259	=>	'Die angegebene Nachricht konnte nciht gefunden werden, vielleicht wurde sie gelöscht!',
+	260	=>	'zurück',
+	261	=>	'vor',
+	262	=>	'Antworten',
+	263	=>	'Allen antworten',
+	264	=>	'Löschen',
+	265	=>	'Weiterleiten',
+	266	=>	'Header anzeigen',
+	267	=>	'kein Betreff',
+	268	=>	'Adresse speichern',
+	269	=>	'HTML Formatierte Nachricht',
+	270	=>	'RFC822 Nachricht',
+	271	=>	'Übertragungsstatus',
+	272	=>	'Nur-Text Nachricht',
+	273	=>	'Rich-Text Nachricht',
+	274	=>	'Unbekanter Anhang',
+	275	=>	'Text Nachricht',
+	276	=>	'Ausführbares Programm',
+	277	=>	'Audio Datei',
+	278	=>	'Bild Datei',
+	279	=>	'Video Datei',
+	280	=>	'PGP Signatur',
+	281 	=>	'Inhalt der Nachricht'
+);
+?>
