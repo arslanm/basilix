@@ -1,0 +1,37 @@
+<?
+// MBox listing messages
+$lang_msg["mboxlst"] = array(
+	201	=>	'Feladó',
+	202	=>	'Rendezés \"Feladó\" szerint',
+	203	=>	'Címzett',
+	204	=>	'Rendezés \"Címzett\" szerint',
+	205	=>	'Dátum',
+	206	=>	'Rendezés \"Dátum\" szerint',
+	207	=>	'Méret',
+	208	=>	'Rendezés \"Méret\" szerint',
+	209	=>	'Tárgy',
+	210	=>	'Rendezés \"Tárgy\" szerint',
+	211	=>	'(nincs tárgy)',
+	212	=>	'A kiválasztott levelek áthelyezése: ',
+	213	=>	'Mehet',
+	214	=>	'Mappa ürítése',
+	215	=>	'A kiválasztott levelek törlése',
+	216	=>	'A kiválasztott levelek végleges törlése',
+	217	=>	'Elõzõ',
+	218	=>	'Következõ',
+	219	=>	'Nincsenek üzenetek ebben a mappában.',
+	220	=>	'Nem választottál ki mappát...',
+	221	=>	'Nem választottál ki üzenetet...',
+	222	=>	'A kiválsztott üzenetet nem lehet áthelyezni.',
+	223	=>	'A kiválsztott üzenetek (%d) átkerültek a Kukába',
+	224	=>	'A kiválsztott üzenetet nem lehet törölni.',
+	225	=>	'A kiválsztott üzeneteket sikeresen áthelyeztem.',
+	226	=>	'Nem lehet véglegesen törölni a kiválasztott üzenetet/üzeneteket.',
+	227	=>	'A kiválasztott üzenet(ek) véglegesen törölve lett(ek).',
+	228	=>	'Oldal: ',
+	229	=>	'Biztosan üríten akarod ennek a mappának a tartalmát?',
+	230	=>	'Üdvözöllek,<BR>legutóbb errõl a géprõl csatlakoztál:',
+	231	=>	'Az üzenet sikeresen törölve lett.',
+	232	=>	'Az üzenet véglegesen törölve lett.'
+);
+?>
