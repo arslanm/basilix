@@ -1,0 +1,37 @@
+<?
+// Folders screen messages
+$lang_msg["folders"] = array(
+	151	=>	'Mappe',
+	152	=>	'Total',
+	153	=>	'Ulest',
+	154	=>	'Størrelse',
+	155	=>	'Opprett personlig mappe:',
+	156	=>	'Opprett mappe',
+	157	=>	'Du kan opprette ubegrenset antall mapper. For å opprette skriver du et navn til den og klikker på "Opprett mappe".',
+	158	=>	'Du skrev ikke noe navn på mappen. Prøv igjen...',
+	159	=>	'Den mappen finnes allerede. Prøv igjen med annet navn.',
+	160	=>	'Mappen er opprettet.',
+	161	=>	'Slett en mappe:',
+	162	=>	'Slett mappe',
+	163	=>	'Slettet mappe kan <u><b>ikke</b> hentes frem igjen</u>. For å slette en mappe, velg den og klikk på "Slett mappe".',
+	164	=>	'Du valgte ingen mappe å stelle. Prøv igjen...',
+	165	=>	'Kunne ikke slette mappen. Prøv igjen senere.',
+	166	=>	'Mappen er slettet.',
+	167	=>	'Endre navn på mappe:',
+	168	=>	'Endre navn på mappe',
+	169	=>	'Om du vil endre navn på en personlig mappe, velg den, skriv inn nytt navn og klikk "Endre navn på mappe".',
+	170	=>	'Gammelt mappenavn',
+	171	=>	'Nytt mappenavn',
+	172	=>	'Du valgte ingen mappe å endre navn på. Prøv igjen...',
+	173	=>	'Du skrev ikke noe nytt mappenavn. Prøv igjen...',
+	174	=>	'Kunne ikke endre navn på mappe. Prøv igjen senere.',
+	175	=>	'Mappen har fått nytt navn.',
+	176	=>	'Tøm papirkurven',
+	177	=>	'Kunne ikke opprette ny mappe. Kanskje ikke nok plass? Prøv igjen senere.',
+	178	=>	'Mappen er tømt',
+	179	=>	'Kunne ikke tømme mappen. Prøv igjen senere.',
+	180	=>	'Er du sikker på at du vil tømme denne mappen?',
+	181	=>	'Kunne ikke opprette papirkurv',
+	182	=>	'Kunne ikke opprette mappe for sendt meldinger'
+);
+?>
