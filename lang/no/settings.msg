@@ -1,0 +1,38 @@
+<?
+// 'Settings' messages
+$lang_msg["settings"] = array(
+	501	=>	'Kunne ikke lagre oppsett. Prøve igjen senere.',
+	502	=>	'Oppettet er lagret',
+	503	=>	'Ditt Navn',
+	504	=>	'(vil bli lagt til <u>Fra</u>-feltet på utgående meldinger)',
+	505	=>	'Signatur',
+	506	=>	'(vil bli lagt til hver melding du sender)',
+	507	=>	'Språk',
+	508	=>	'(standardspråk)',
+	509	=>	'Sortér meldinger på',
+	510	=>	'(standard sortering)',
+	511	=>	'Omvendt sortering',
+	512	=>	'(om ja vil nyeste meldinger vises øverst)',
+	513	=>	'Lagre utgående meldinger',
+	514	=>	'(om ja vil ugående meldinger lagres i "sendte meldinger")',
+	515	=>	'Flytt til papirkurven',
+	516	=>	'(om ja vil slettede meldinger legges i papirkurven)',
+	517	=>	'Sidestørrelse',
+	518	=>	'(antall meldinger per side når man ser på en mappe)',
+	519	=>	'Dato',
+	520	=>	'Fra',
+	521	=>	'Emne',
+	522	=>	'Størrelse',
+	523	=>	'Utseende',
+	524	=>	'(endrer utseended på e-postprogrammet)',
+	525	=>	'Lagre oppsett',
+	526	=>	'Vis',
+	527	=>	'Skjul',
+	528	=>	'Vis/Skjul',
+	529	=>	'(vis eller skjul bruker-mappene i menyen til venstre)',
+	530	=>	'Forrige/Neste',
+	531	=>	'(viser lenker til forrige og neste melding -- dette er tregt på store mapper)',
+	532	=>	'Svar-til',
+	533	=>	'(mottakeren vil svare til denne adressen -- om tom vil <b>%e</b> bli brukt)'
+);
+?>
