@@ -1,0 +1,37 @@
+<?
+// Folders screen messages
+$lang_msg["folders"] = array(
+	151	=>	'Složky',
+	152	=>	'Celkem',
+	153	=>	'Neprìèteno',
+	154	=>	'Velikost',
+	155	=>	'Vytvoø osobní složku:',
+	156	=>	'Vytvoø mojí osobní složku:',
+	157	=>	'Mùžete vytvoøit libovolné množství osobních složek, prosím napište jméno a stisknìte tlaèítko "Vytvoøit".',
+	158	=>	'Nevložil jste jméno nové složky, zkuste to prosím znovu.',
+	159	=>	'Takto pojmenovaná složka již existuje, prosím zkuste to znovu.',
+	160	=>	'Váše nová složka byla úspìšnì vytvoøena.',
+	161	=>	'Vymazat složku:',
+	162	=>	'Vymazat oznaèenou složku',
+	163	=>	'Vymazané složky <u><b>NENÍ</b> možné obnovit</u>. Pokud chcete vymazat složku, oznaète ji a stisknìte tlaèítko "Vymazat".',
+	164	=>	'Nevybral jste si složku na smazání, prosím zkuste to znovu.',
+	165	=>	'Nemohu vymazat oznaèenou složku, zkuste to prosím pozdìji..',
+	166	=>	'Oznaèená složka byla úspìšnì vymazána.',
+	167	=>	'Pøejmenovat složku:',
+	168	=>	'Pøejmenovat oznaèenou složku',
+	169	=>	'Pokud chcete pøejmenovat osobní složku, prosím oznaète ji a stisknìte tlaèítko "Pøejmenovat".',
+	170	=>	'Pùvodní jméno složky',
+	171	=>	'Nové jméno složky',
+	172	=>	'Nevybral jste si složku pro pøejmenování, zkuste to prosím znovu..',
+	173	=>	'Nezadal jste nové jméno složky, zkuste to prosím znovu..',
+	174	=>	'Nemohu pøejmenovat složku, zkuste to prosím pozdìji..',
+	175	=>	'Složka byla úspììnì pøejmenována.',
+	176	=>	'Vymazat Koš',
+	177	=>	'Nemohu vytvoøit novou složku. Došlo volné místo na disku? Zkuste to prosím pozdìji..',
+	178	=>	'Oznaèená složka byla úspìšnì vyprázdnìna.',
+	179	=>	'Nemohu vyprázdnit požadovanou složku, zkuste to prosím pozdìji..',
+	180	=>	'Skuteènì chcete vyprázdnit složku?',
+	181	=>	'Chyba pøi vytváøení Koše',
+	182	=>	'Chyba pøi vytváøení složky Odeslaná pošta'
+);
+?>
